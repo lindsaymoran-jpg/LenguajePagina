@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(180deg, #f2f4f8, #e6e9f0);
+    color: #2b2b2b;
+}
+
+/* Header */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.6rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* Navegación */
+.menu {
+    background-color: white;
+    text-align: center;
+    padding: 12px 0;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+}
+
+.menu a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #2a5298;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #1e3c72;
+}
+
+/* Contenido */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+}
+
+h2 {
+    margin-top: 0;
+    color: #1e3c72;
+}
+
+/* Creativa */
+.creative {
+    background: #f7f9ff;
+}
+
+.poema {
+    font-style: italic;
+    line-height: 1.8;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px 15px;
+    background-color: #1e3c72;
+    color: white;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
